@@ -2,7 +2,7 @@ let linkRegex = /chat.whatsapp.com\/([0-9A-Za-z]{20,24})( [0-9]{1,3})?/i
 
 let handler = async (m, { conn, text, isOwner, usedPrefix, command }) => {
 	
-	if (!text) throw `✳️ Envie el link de tu Grupo\n\n📌 Ejemplo *${usedPrefix + command}* https://chat.whatsapp.com/IO9jmpI72ejHiN4unRZleU`
+	if (!text) throw `✳️ Envie el link de tu Grupo\n\n📌 Ejemplo *${usedPrefix + command}* https://chat.whatsapp.com/LN1dF710mLiJjEpzF1vq24`
     let [_, code, expired] = text.match(linkRegex) || []
     if (!code) throw '⚠️Link invalido'
     let res = await conn.groupAcceptInvite(code)
