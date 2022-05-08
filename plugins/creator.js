@@ -6,18 +6,18 @@ function handler(m) {
 *≡ OWNER*
 
 ▢ Instagram :
-  • https://instagram.com/fg98._
+  • https://instagram.com/bayashenry06
 ▢ WhatsApp :
-  • wa.me/
+  • wa.me/593939362849
 ▢ Telegram : 
-  • t.me/fgsupp_bot 
-  • t.me/fg98ff (canal)
-  • t.me/fgawgp (grupo)
+  • t.me/
+  • t.me/ (canal)
+  • t.me/ (grupo)
 ▢ Facebook : 
-  • https://facebook.com/fg98ff/
-  • https://facebook.com/fg98A/
+  • https://facebook.com/
+  • https://facebook.com/
 ▢ YouTube : 
-  • https://youtube.com/fg98f
+  • https://youtube.com/
 `) 
 
 
