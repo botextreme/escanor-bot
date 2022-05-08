@@ -3,12 +3,12 @@ import chalk from 'chalk'
 import { fileURLToPath } from 'url'
 
 global.owner = [
-  ['5493885839638'],
-  ['59172945992', 'FG', true]
+  ['593939362849'],
+  ['593963885461', '528261956657', true]
 ] //Numeros de owner 
 
 global.mods = [] // Moderadores?
-global.prems = ['50489079501', '5219631769130', '573125484672']  // El usuario Premium tiene diamantes ilimitado
+global.prems = ['528261956657', '593939362849', '593963885461']  // El usuario Premium tiene diamantes ilimitado
 global.APIs = { // API Prefix
   // name: 'https://website'
   nrtm: 'https://nurutomo.herokuapp.com',
@@ -29,9 +29,9 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.packname = 'dylux-bot'
-global.author = '@fg98'
-global.igfg = '\n▢ Sígueme en Instagram\nhttps://www.instagram.com/fg98._\n' 
+global.packname = 'ESCORPION-bot'
+global.author = '@escorpion'
+global.igfg = '\n▢ Sígueme en Instagram\nhttps://www.instagram.com/bayashenry06\n' 
 
 global.wait = '*⌛ _Cargando..._ ▬▬▬▭*'
 
