@@ -1,8 +1,8 @@
 # escorpion-bot
 
-<a href="https://github.com/FG98F/dylux-fg/network/members"><img title="Forks" src="https://img.shields.io/github/forks/FG98F/dylux-fg?label=Forks&color=blue&style=flat-square"></a>
-<a href="https://github.com/FG98F/dylux-fg/watchers"><img title="Watchers" src="https://img.shields.io/github/watchers/FG98F/dylux-fg?label=Watchers&color=green&style=flat-square"></a>
-<a href="https://github.com/FG98F/dylux-fg/stargazers"><img title="Stars" src="https://img.shields.io/github/stars/FG98F/dylux-fg?label=Stars&color=yellow&style=flat-square"></a>
+<a href="https://github.com/botextreme/escanor-bot/network/members"><img title="Forks" src="https://img.shields.io/github/forks/FG98F/dylux-fg?label=Forks&color=blue&style=flat-square"></a>
+<a href="https://github.com/botextreme/escanor-bot/watchers"><img title="Watchers" src="https://img.shields.io/github/watchers/FG98F/dylux-fg?label=Watchers&color=green&style=flat-square"></a>
+<a href="https://github.com/botextreme/escanor-bot/stargazers"><img title="Stars" src="https://img.shields.io/github/stars/FG98F/dylux-fg?label=Stars&color=yellow&style=flat-square"></a>
 
 
 
@@ -12,7 +12,7 @@
 
 
 #### Deploy to Heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/FG98F/dylux-fg)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/botextreme/escanor-bot)
 
 #### Heroku Buildpack
 | BuildPack | LINK |
@@ -28,8 +28,8 @@ $ pkg install git -y
 $ pkg install nodejs -y
 $ pkg install ffmpeg -y
 $ pkg install imagemagick -y
-$ git clone https://github.com/FG98F/dylux-fg
-$ cd dylux-fg
+$ git clone https://github.com/botextreme/escanor-bot
+$ cd escanor-bot
 $ npm i 
 ```
 ```sh
@@ -55,8 +55,8 @@ $ yarn install
 * Descargar e instalar ImageMagick [`Click aquí`](https://imagemagick.org/script/download.php)
 
 ```bash
-git clone https://github.com/FG98F/dylux-fg
-cd dylux-fg
+git clone https://github.com/botextreme/escanor-bot
+cd escanor-bot
 npm install
 npm update
 ```
