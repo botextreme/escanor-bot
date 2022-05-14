@@ -16,7 +16,7 @@ _Al donar consigues_  *Premium*
 • comandos de *menu premium* desbloqueado
 • Limite de *Descargas +250 MB*, podrá descargar archivos de 300 mb que es lo que permite WhatsApp :'v
 
-Si donas contactame por t.me/fg98f
+Si donas contactame por wa.me/593939362849
 `.trim())
 handler.help = ['donar']
 handler.tags = ['main']
