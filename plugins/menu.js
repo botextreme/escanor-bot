@@ -145,7 +145,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
     
   //const pp = await conn.profilePictureUrl(conn.user.jid).catch(_ => './src/avatar_contact.png')
-const pp = await (await fetch('file:///Users/adrianbayas/Desktop/logoescorpion.jpg')).buffer()
+const pp = await (await fetch('https://ibb.co/t2v51t1.jpg')).buffer()
     
     conn.sendHydrated(m.chat, text.trim(), '▢ ESCORPION  ┃ ᴮᴼᵀ\n▢ Sígueme en Instagram\nhttps://www.instagram.com/bayashenry06\n', pp, 'https://youtube.com/dinocomedia', 'YouTube', null, null, [
       ['ꨄ︎ Apoyar', '/donate'],
