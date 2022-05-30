@@ -145,7 +145,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
     
   //const pp = await conn.profilePictureUrl(conn.user.jid).catch(_ => './src/avatar_contact.png')
-const pp = await (await fetch('https://ibb.co/t2v51t1.jpg')).buffer()
+const pp = await (await fetch('https://scontent.fgye5-2.fna.fbcdn.net/v/t39.30808-6/284998300_5346953762014924_4442148350979046441_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeGDz48CFKboHq1AeK35NymhV4SFezMcCiJXhIV7MxwKIpDlbNrFtL8w86USk1luZxvroKfTeF5EYjB0R23tkSR-&_nc_ohc=Qh31EMowNgwAX9Jrpu8&tn=TVJu0G2MCJM37j7r&_nc_ht=scontent.fgye5-2.fna&oh=00_AT9IrrdiTXQ1PfOJpuADiXNVPzbS-qulb1XqV5FJewKAtQ&oe=6298D0C3.jpg')).buffer()
     
     conn.sendHydrated(m.chat, text.trim(), '▢ ESCORPION  ┃ ᴮᴼᵀ\n▢ Sígueme en Instagram\nhttps://www.instagram.com/bayashenry06\n', pp, 'https://youtube.com/dinocomedia', 'YouTube', null, null, [
       ['ꨄ︎ Apoyar', '/donate'],
